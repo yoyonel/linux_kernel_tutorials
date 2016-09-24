@@ -1,6 +1,8 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 
+MODULE_LICENSE("Dual BSD/GPL");
+
 static int hello_init(void) {
 	printk(KERN_ALERT "TEST: Hello world !\n");
 
